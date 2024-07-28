@@ -51,7 +51,6 @@ body{
         }
 
         .text-content{
-            background: red;
             line-height: 40px;
         }
 
@@ -60,13 +59,17 @@ body{
             height: 0;
         }
 
+        .Bus-sym-loc{
+           margin-top: -20px;
+         }
+
         .Bus-sym-loc input{
             width: 76%;
           }
 
           .paper-map-cuate-6-2{
             position:relative;
-            top: -23em;
+            top: -26em;
             left: 4.5rem;
             width: 250px;
             height: 250px;

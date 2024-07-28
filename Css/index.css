@@ -832,9 +832,9 @@ footer{
 margin-top: 50px;
 width: 100%;
 background-color: #e3e3e3;
-height: 400px;
+height: 390px;
 display: flex;
-padding: 10px;
+padding: 25px;
 justify-content: space-between;
 }
 

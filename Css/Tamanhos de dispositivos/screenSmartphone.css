@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width:767px){
+    .page-one{
+        background:#008FFF;
+        width: 100%;
+        height: 100vh;
+      }
+
+      .page-one > header{
+        padding: 20px;
+      }
+      
+      .page-one > header > nav{
+        display: none;
+      }
+
+      .page-one > header > .help_buttons_group{
+        display: none;
+      }
+
+      .button_menu{
+        display: block;
+      }
+
+      .Text-img{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .Sua-busca-pela{
+        width: 400px;
+        height: 500px;
+        position: relative;
+        top: 0;
+        left: 0;
+        font-weight: 500;
+        color: #fff;
+        padding: 10px;
+        }
+
+        #text{
+            font-size: 30px;
+            line-height: 1px;
+            height: 100px;
+        }
+
+        .Bus-sym-loc input{
+            width: 85%;
+          }
+
+          .paper-map-cuate-6-2{
+            position:relative;
+            top: -23em;
+            left: 4.5rem;
+            width: 250px;
+            height: 250px;
+          }
+}
+
+
+
+

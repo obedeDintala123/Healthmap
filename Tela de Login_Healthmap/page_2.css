@@ -1,0 +1,56 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: poppins;
+}
+
+.container {
+    margin-top: 25px;
+    width: 315px;
+    text-align: center;
+}
+
+.icon img {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+h1 {
+    
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    font-weight: 500;
+    
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    margin-top: 30px;
+   
+    
+}
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    background-color: #eee;
+
+}

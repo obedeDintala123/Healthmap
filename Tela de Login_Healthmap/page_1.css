@@ -1,0 +1,121 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: poppins;
+}
+
+.container {
+    margin-top: 25px;
+    width: 315px;
+    text-align: center;
+}
+
+.icon img {
+    width: 70px;
+    height: 70px;
+}
+
+h1 {
+    
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    font-weight: 500;
+    
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 2rem;
+    text-align: left;
+    
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  
+
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 150px ;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.divider:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.divider:not(:empty)::after {
+    margin-left: .25em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-button {
+    background-color: #eee;
+    color: #333;
+}
+
+.next-button {
+    background-color: #eee;
+    color: #333;
+}
+
+.next-button.enabled {
+    background-color: #0056B3;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}

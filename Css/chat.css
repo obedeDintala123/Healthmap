@@ -1,0 +1,132 @@
+/*message*/
+.message{
+    position: fixed;
+    left: 81%;
+    width: 212px;
+    padding:10px 15px;
+    background: #fff;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    z-index: 1;
+    box-shadow: 0 5px 30px rgba(27, 31, 35, 0.1), 0 0 1px rgba(27, 31, 35, 0.4), 0 1px 2px rgba(27, 31, 35, 0.15);
+}
+
+.message span{
+    font-weight:600;
+}
+
+/*chatboot-window*/
+
+.chat-window{
+    background:#e3e3e3;
+    width: 300px;
+    height: 500px;
+    position: fixed;
+    top: 15%;
+    left: 80%;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    box-shadow: 0 5px 30px rgba(27, 31, 35, 0.1), 0 0 1px rgba(27, 31, 35, 0.4), 0 1px 2px rgba(27, 31, 35, 0.15);
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .chat-window header{
+      background: #fff;
+      padding: 15px;
+      display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: none;
+     border-top-left-radius: 8px;
+     border-top-right-radius: 8px;
+    }
+    
+    .chat-window > header > .titule{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    
+    .chat-window > header > .titule > img{
+    width: 50px;
+    }
+    
+    .send-group{
+      display: flex;
+    }
+    
+    .send-group input{
+        padding: 15px;
+        border: none;
+        font-size: 16px;
+        color: #555;
+        outline: none;
+        width: calc(100% - 40px);
+        border-bottom-left-radius: 8px;
+    }
+    
+    .send-svg{
+      background: #fff;
+      cursor: pointer;
+      border-bottom-right-radius: 8px;
+    }
+
+
+    .chat-content {
+        flex: 1;
+        padding: 10px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Estilos para as mensagens do chat */
+.chat-message {
+    background: #f1f1f1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+    align-self: flex-end;
+    word-wrap: break-word;
+}
+
+.robot-message {
+    background: #f1f1f1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+}
+    /*botão-flutuante*/
+    
+    .button-flut{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0056B3;
+    cursor: pointer;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    z-index: 1;
+    box-shadow: 0 5px 30px rgba(27, 31, 35, 0.1), 0 0 1px rgba(27, 31, 35, 0.4), 0 1px 2px rgba(27, 31, 35, 0.15);
+    }
+    
+    .button-flut svg{
+      color: #fff;
+    }

@@ -832,7 +832,7 @@ footer{
 margin-top: 50px;
 width: 100%;
 background-color: #e3e3e3;
-height: 385px;
+height: 500px;
 display: flex;
 padding: 10px;
 justify-content: space-between;
@@ -847,6 +847,12 @@ width: calc(100% - 100px);
 display: flex;
 flex-direction: column;
 gap: 70px;
+}
+
+.container-logo > img{
+  margin-top: 20px;
+margin-left: 100px;
+width: 20rem;
 }
 
 .container-logo > span{

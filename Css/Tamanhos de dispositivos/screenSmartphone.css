@@ -50,14 +50,18 @@ body{
         padding: 10px;
         }
 
+        .text-content{
+            background: red;
+            line-height: 40px;
+        }
+
         #text{
             font-size: 30px;
-            line-height: 1px;
-            height: 100px;
+            height: 0;
         }
 
         .Bus-sym-loc input{
-            width: 75%;
+            width: 76%;
           }
 
           .paper-map-cuate-6-2{
